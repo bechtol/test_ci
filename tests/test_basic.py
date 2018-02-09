@@ -6,7 +6,7 @@ def test_basic():
     """
     a, b = 2, 2
     x = a + b
-    np.assert_almost_equal(x, 4.)
+    np.testing.assert_almost_equal(x, 4.)
 
 if __name__ == '__main__':
     np.testing.run_module_suite()
