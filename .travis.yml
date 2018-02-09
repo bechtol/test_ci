@@ -3,5 +3,5 @@ python:
    - "2.7"
 
 script:
-   #- python tests/run_tests.py --debug --detailed-errors --verbose
-   - nosetests -v
+   - python tests/run_tests.py --debug --detailed-errors --verbose
+   #- nosetests -v
