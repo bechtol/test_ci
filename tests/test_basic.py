@@ -8,6 +8,14 @@ def test_addition():
     x = a + b
     np.testing.assert_almost_equal(x, 4.)
 
+def test_subtraction():
+    """
+    Subtraction test
+    """
+    a, b = 10, 7
+    x = a - b
+    np.testing.assert_almost_equal(x, 3.)
+
 def test_multiplication():
     """
     Multiplication test
